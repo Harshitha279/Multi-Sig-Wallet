@@ -1,0 +1,15 @@
+[package]
+name = "MultiSigWallet"
+version = "1.0.0"
+authors = []
+
+[addresses]
+SendMessage = "0xff7888ecbb1359446f7babaf2eca50e13eac98532d4443d251d4992f149c63da"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
